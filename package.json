@@ -1,0 +1,18 @@
+{
+  "name": "portrait-towers",
+  "version": "0.0.1",
+  "description": "This is a part of LOL-2019 quest",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export && sed -i 's:/_next/:./_next/:g' ./out/*.html"
+  },
+  "author": "Vlad Frolov <frolvlad@gmail.com>",
+  "dependencies": {
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
